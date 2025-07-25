@@ -1,0 +1,10 @@
+  
+  CREATE DATABASE dbthree;
+  
+  USE dbthree;
+
+  CREATE TABLE employees(eid int, ename varchar(20), gender varchar(20));
+
+  INSERT INTO employees VALUES(101,"RG","male"),(102,"SG","female"),(103,"PG","female");
+  
+  SELECT * FROM employees;
