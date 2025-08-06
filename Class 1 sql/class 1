@@ -36,3 +36,17 @@ SQL:
  * SAVEPOINT
  * GRANT
  * REVOKE
+==========================================================================================================================
+
+Mysql constraints:
+  
+   Rule on data;
+     * NOT NULL      - NULL values are not allowed but duplicates are allowed.
+     * UNIQUE        - Duplicates are not allowed but null values are allowed.
+     * DEFAULT       - Default value
+     * CHECK         - Condition [operator]
+     * PRIMARY KEY   - [NOT NULL + UNIQUE]
+     * FOREIGN KEY   - Key Constraint, which is referring to another table primary key.
+     * INDEX         -
+
+
